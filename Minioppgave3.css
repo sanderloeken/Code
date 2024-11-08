@@ -1,0 +1,13 @@
+.sec1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#p1 {
+    color: #ffff;
+    font-size: 3rem;
+}

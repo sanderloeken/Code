@@ -1,0 +1,84 @@
+div.title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+    border: 10px;
+    padding: 1%;
+    background-color: blanchedalmond;
+    border-radius: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-style: ridge;
+    border-color: black;
+}
+
+
+div.title2 {
+    display: flex;
+    
+
+    margin: 5%;
+    background-color: beige;
+    padding: 2%;
+    border-radius: 10px;
+
+    div.feks1{
+
+        flex: 2;
+
+    }
+
+    div.feks2{
+
+        flex: 2;
+    }
+
+    div.feks3{
+
+        flex: 7;
+    }
+}
+
+div.bilde {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+    padding: 5%;
+    border-style: dashed;
+    margin: 5px;
+
+
+    #IMG {
+        align-self: normal;
+        flex: 0 0 100%;
+
+        margin: 5px;
+        border: 5px;
+        border-style: ridge;
+        border-color: black;
+    }
+    
+}
+
+div.liste {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: center;
+    margin: 5px;
+    border-style: dashed;
+    padding: 5%;
+
+    #Listefeks {
+        list-style-type: square;
+        padding: 5px;
+        list-style-position: inside;
+    }
+    
+}
+

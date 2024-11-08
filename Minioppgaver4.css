@@ -1,0 +1,59 @@
+.sec1 {
+    height: 68vh;
+    background-color: black;
+    display: flex;
+}
+
+article {
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    padding: 1rem;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 50%;
+    transition: 1s;
+}
+
+article:hover {
+    flex: 3;
+    font-size: 130%;
+}
+
+.en {
+     background-image: url(Bilder/japanese-wave-line-art-landscape-background_198067-792552.avif);
+     .en1 {
+        background-color: rgba(250, 235, 215, 0.671);
+        padding: 2%;
+        color: rgb(0, 0, 0);
+        border: 3px;
+        border-radius: 20px;
+        border-style: groove;
+     }
+}
+
+.to {
+     background-image: url(Bilder/pattaya-cityscape-in-the-evening-el32b6oarw215bns.jpg);
+     .to2 {
+        background-color: rgba(250, 235, 215, 0.671);
+        padding: 2%;
+        color: rgb(0, 0, 0);
+        border: 3px;
+        border-radius: 20px;
+        border-style: groove;
+     }
+
+}
+
+.tre {
+     background-image: url(Bilder/trails-geminids.webp);
+     .tre3 {
+        background-color: rgba(250, 235, 215, 0.671);
+        padding: 2%;
+        color: rgb(0, 0, 0);
+        border: 3px;
+        border-radius: 20px;
+        border-style: groove;
+     }
+}

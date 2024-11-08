@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* og skrive html, body er akkurat som div. forskjelen er bare at html er HELE dokumentet.
+bare fordi jeg skrev felx direvtion i HTML, body da funker flex som magin bottom og top. så jeg brukte flex 1 i content for å lage
+mellom room så at footer er på bunn. */
+
+.header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.nav {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    padding: 20px;
+    flex: 1;
+}
+
+.main-content {
+    background-color: #f1f1f1;
+    padding: 20px;
+    flex: 2;
+}
+
+.sidebar {
+    background-color: #ddd;
+    padding: 20px;
+    flex: 2;
+}
+
+.footer {
+    
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
